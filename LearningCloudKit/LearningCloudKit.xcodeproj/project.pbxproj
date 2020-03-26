@@ -9,30 +9,32 @@
 /* Begin PBXBuildFile section */
 		E455A19D242D19C100425542 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E455A19C242D19C100425542 /* AppDelegate.swift */; };
 		E455A19F242D19C100425542 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E455A19E242D19C100425542 /* SceneDelegate.swift */; };
-		E455A1A1242D19C100425542 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E455A1A0242D19C100425542 /* ContentView.swift */; };
+		E455A1A1242D19C100425542 /* AlunosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E455A1A0242D19C100425542 /* AlunosView.swift */; };
 		E455A1A3242D19C500425542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E455A1A2242D19C500425542 /* Assets.xcassets */; };
 		E455A1A6242D19C500425542 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E455A1A5242D19C500425542 /* Preview Assets.xcassets */; };
 		E455A1A9242D19C500425542 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E455A1A7242D19C500425542 /* LaunchScreen.storyboard */; };
 		E455A1B3242D19E000425542 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E455A1B2242D19E000425542 /* CloudKit.framework */; };
-		E455A1B5242D297800425542 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = E455A1B4242D297800425542 /* Data.swift */; };
+		E455A1B5242D297800425542 /* CloudKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E455A1B4242D297800425542 /* CloudKitHelper.swift */; };
 		E455A1B8242D29E000425542 /* Aluno.swift in Sources */ = {isa = PBXBuildFile; fileRef = E455A1B7242D29E000425542 /* Aluno.swift */; };
-		E455A1BA242D2A5300425542 /* Professor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E455A1B9242D2A5300425542 /* Professor.swift */; };
+		E455A1BC242D398200425542 /* AlunosRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E455A1BB242D398200425542 /* AlunosRow.swift */; };
+		E455A1BE242D3D4400425542 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E455A1BD242D3D4400425542 /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E455A199242D19C100425542 /* LearningCloudKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningCloudKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E455A19C242D19C100425542 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E455A19E242D19C100425542 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E455A1A0242D19C100425542 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E455A1A0242D19C100425542 /* AlunosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlunosView.swift; sourceTree = "<group>"; };
 		E455A1A2242D19C500425542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E455A1A5242D19C500425542 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E455A1A8242D19C500425542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E455A1AA242D19C500425542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E455A1B0242D19DD00425542 /* LearningCloudKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LearningCloudKit.entitlements; sourceTree = "<group>"; };
 		E455A1B2242D19E000425542 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
-		E455A1B4242D297800425542 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		E455A1B4242D297800425542 /* CloudKitHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitHelper.swift; sourceTree = "<group>"; };
 		E455A1B7242D29E000425542 /* Aluno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aluno.swift; sourceTree = "<group>"; };
-		E455A1B9242D2A5300425542 /* Professor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Professor.swift; sourceTree = "<group>"; };
+		E455A1BB242D398200425542 /* AlunosRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlunosRow.swift; sourceTree = "<group>"; };
+		E455A1BD242D3D4400425542 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +73,8 @@
 				E455A1B0242D19DD00425542 /* LearningCloudKit.entitlements */,
 				E455A19C242D19C100425542 /* AppDelegate.swift */,
 				E455A19E242D19C100425542 /* SceneDelegate.swift */,
-				E455A1A0242D19C100425542 /* ContentView.swift */,
+				E455A1A0242D19C100425542 /* AlunosView.swift */,
+				E455A1BB242D398200425542 /* AlunosRow.swift */,
 				E455A1A2242D19C500425542 /* Assets.xcassets */,
 				E455A1A7242D19C500425542 /* LaunchScreen.storyboard */,
 				E455A1AA242D19C500425542 /* Info.plist */,
@@ -99,9 +102,9 @@
 		E455A1B6242D29D400425542 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E455A1B4242D297800425542 /* Data.swift */,
+				E455A1B4242D297800425542 /* CloudKitHelper.swift */,
 				E455A1B7242D29E000425542 /* Aluno.swift */,
-				E455A1B9242D2A5300425542 /* Professor.swift */,
+				E455A1BD242D3D4400425542 /* UserData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,12 +180,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E455A1BC242D398200425542 /* AlunosRow.swift in Sources */,
 				E455A19D242D19C100425542 /* AppDelegate.swift in Sources */,
-				E455A1BA242D2A5300425542 /* Professor.swift in Sources */,
+				E455A1BE242D3D4400425542 /* UserData.swift in Sources */,
 				E455A1B8242D29E000425542 /* Aluno.swift in Sources */,
 				E455A19F242D19C100425542 /* SceneDelegate.swift in Sources */,
-				E455A1A1242D19C100425542 /* ContentView.swift in Sources */,
-				E455A1B5242D297800425542 /* Data.swift in Sources */,
+				E455A1A1242D19C100425542 /* AlunosView.swift in Sources */,
+				E455A1B5242D297800425542 /* CloudKitHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

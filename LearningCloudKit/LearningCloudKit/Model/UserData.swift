@@ -1,5 +1,5 @@
 //
-//  Aluno.swift
+//  UserData.swift
 //  LearningCloudKit
 //
 //  Created by Lia Kassardjian on 26/03/20.
@@ -7,11 +7,8 @@
 //
 
 import Foundation
-import CloudKit
+import Combine
 
-struct Aluno: Identifiable {
-    var id: CKRecord.ID?
-    var nome: String
-    var curso: String
-    var tia: String
+final class UserData: ObservableObject {
+    @Published var alunos = [Aluno]()
 }
