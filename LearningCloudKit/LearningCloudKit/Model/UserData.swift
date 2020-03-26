@@ -1,5 +1,5 @@
 //
-//  Data.swift
+//  UserData.swift
 //  LearningCloudKit
 //
 //  Created by Lia Kassardjian on 26/03/20.
@@ -7,8 +7,8 @@
 //
 
 import Foundation
+import Combine
 
-let alunosData: [Aluno]?
-let professoresData: [Professor]?
-
-
+final class UserData: ObservableObject {
+    @Published var alunos = [Aluno]()
+}

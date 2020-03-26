@@ -7,18 +7,11 @@
 //
 
 import Foundation
+import CloudKit
 
-class Aluno {
-    var id: String
+struct Aluno: Identifiable {
+    var id: CKRecord.ID?
     var nome: String
     var curso: String
     var tia: String
-    var professores = [Professor]()
-    
-    init(id: String, nome: String, curso: String, tia: String) {
-        self.id = id
-        self.nome = nome
-        self.curso = curso
-        self.tia = tia
-    }
 }
