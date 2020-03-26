@@ -8,6 +8,7 @@
 
 import UIKit
 import SwiftUI
+import CloudKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -19,9 +20,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
+        container = CKContainer.init(identifier: "iCloud.br.lk.LearningCloudKit")
+        privateDB = container?.privateCloudDatabase
+        loadAlunos()
+        loadProfessores()
+        
         // Create the SwiftUI view that provides the window contents.
         let contentView = ContentView()
-
+        
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
