@@ -14,15 +14,13 @@ struct AlunosView: View {
     var body: some View {
         NavigationView {
             List(userData.alunos) { aluno in
-                HStack(spacing: 15) {
-                    Text(aluno.nome)
+                NavigationLink(destination: AlunoDetail(aluno: aluno)) {
+                    AlunosRow(aluno: aluno)                 
                 }
             }
-            .animation(.easeInOut)
             .navigationBarTitle(Text("Alunos"))
         }
         .onAppear {
-            // MARK: - fetch from CloudKit
             CloudKitHelper.fetch { (result) in
                 switch result {
                 case .success(let newItem):
