@@ -19,6 +19,7 @@
 		E455A1BC242D398200425542 /* AlunosRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E455A1BB242D398200425542 /* AlunosRow.swift */; };
 		E455A1BE242D3D4400425542 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E455A1BD242D3D4400425542 /* UserData.swift */; };
 		E455A1C0242D5AE100425542 /* AlunoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E455A1BF242D5AE100425542 /* AlunoDetail.swift */; };
+		E455A1C2242D60A300425542 /* AlunoAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = E455A1C1242D60A300425542 /* AlunoAdd.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		E455A1BB242D398200425542 /* AlunosRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlunosRow.swift; sourceTree = "<group>"; };
 		E455A1BD242D3D4400425542 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		E455A1BF242D5AE100425542 /* AlunoDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlunoDetail.swift; sourceTree = "<group>"; };
+		E455A1C1242D60A300425542 /* AlunoAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlunoAdd.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				E455A1A0242D19C100425542 /* AlunosView.swift */,
 				E455A1BB242D398200425542 /* AlunosRow.swift */,
 				E455A1BF242D5AE100425542 /* AlunoDetail.swift */,
+				E455A1C1242D60A300425542 /* AlunoAdd.swift */,
 				E455A1A2242D19C500425542 /* Assets.xcassets */,
 				E455A1A7242D19C500425542 /* LaunchScreen.storyboard */,
 				E455A1AA242D19C500425542 /* Info.plist */,
@@ -190,6 +193,7 @@
 				E455A19F242D19C100425542 /* SceneDelegate.swift in Sources */,
 				E455A1A1242D19C100425542 /* AlunosView.swift in Sources */,
 				E455A1C0242D5AE100425542 /* AlunoDetail.swift in Sources */,
+				E455A1C2242D60A300425542 /* AlunoAdd.swift in Sources */,
 				E455A1B5242D297800425542 /* CloudKitHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
