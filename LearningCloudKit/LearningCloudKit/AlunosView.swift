@@ -10,6 +10,7 @@ import SwiftUI
 
 struct AlunosView: View {
     @EnvironmentObject var userData: UserData
+    @State var presentingModal = false
     
     var body: some View {
         NavigationView {
@@ -19,6 +20,14 @@ struct AlunosView: View {
                 }
             }
             .navigationBarTitle(Text("Alunos"))
+            .navigationBarItems(trailing:
+                Button("Adicionar") {
+                    self.presentingModal = true
+                }
+                .sheet(isPresented: $presentingModal, content: {
+                    AlunoAdd(presentedAsModal: self.$presentingModal).environmentObject(self.userData)
+                })
+            )
         }
         .onAppear {
             CloudKitHelper.fetch { (result) in
