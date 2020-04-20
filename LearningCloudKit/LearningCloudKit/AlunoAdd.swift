@@ -44,6 +44,6 @@ struct AlunoAdd: View {
 
 struct AlunoAdd_Previews: PreviewProvider {
     static var previews: some View {
-        AlunoAdd(presentedAsModal: .constant(false))
+        AlunoAdd(presentedAsModal: .constant(true))
     }
 }
